@@ -5,6 +5,7 @@ import warnings
 
 warnings.warn(
     "rpi-camera-colony is deprecated and will receive no further updates. "
+    "It is not compatible with newer OS releases and has known package incompatibilities. "
     "Use rpi-camera-ensemble instead.",
     DeprecationWarning,
     stacklevel=2,
