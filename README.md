@@ -38,6 +38,10 @@
 Central control for video acquisition with (many) Raspberry Pi cameras
 ---
 
+> ⚠️ **Deprecated — use [rpi-camera-ensemble](https://github.com/MurineShiftWork/rpi-camera-ensemble) instead.**
+> This package receives no further updates and has known incompatibilities with newer OS releases.
+> Existing installations continue to work; new projects should use `rpi-camera-ensemble`.
+
 Record videos in parallel with one or more remote-controlled Raspberry Pi (RPi) cameras. :movie_camera:
 
 A single configuration file and a few lines of code allow specific and reproducible acquisition settings for groups of cameras.
