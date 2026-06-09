@@ -32,15 +32,11 @@
 [![Downloads](https://pepy.tech/badge/rpi_camera_colony)](https://pepy.tech/project/rpi_camera_colony)
 -->
 
-> **Deprecated.** This package is no longer maintained. It is not compatible with newer OS releases and has known package incompatibilities. Use [rpi-camera-ensemble](https://github.com/MurineShiftWork/rpi-camera-ensemble) instead.
+> ⚠️ **Deprecated.** This package is no longer maintained and has known incompatibilities with newer OS releases. Use [rpi-camera-ensemble](https://github.com/MurineShiftWork/rpi-camera-ensemble) instead. Existing installations continue to work.
 
 # RPi Camera Colony (RCC)
 Central control for video acquisition with (many) Raspberry Pi cameras
 ---
-
-> ⚠️ **Deprecated — use [rpi-camera-ensemble](https://github.com/MurineShiftWork/rpi-camera-ensemble) instead.**
-> This package receives no further updates and has known incompatibilities with newer OS releases.
-> Existing installations continue to work; new projects should use `rpi-camera-ensemble`.
 
 Record videos in parallel with one or more remote-controlled Raspberry Pi (RPi) cameras. :movie_camera:
 
