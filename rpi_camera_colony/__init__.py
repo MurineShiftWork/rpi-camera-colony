@@ -17,5 +17,5 @@ __all__ = [
     "read_session_data",
 ]
 
-__version__ = "1.0.0"
+__version__ = "1.0.1"
 __author__ = "Lars B. Rollik"
