@@ -1,7 +1,7 @@
 <!--
 -*- coding: utf-8 -*-
 
- Author: Lars B. Rollik <L.B.Rollik@protonmail.com>
+ Author: Lars B. Rollik <lars@rollik.me>
  License: BSD 3-Clause
 -->
 
@@ -99,14 +99,14 @@ Add an additional output via network video stream directly from the main `config
   ````shell
   -s, --stream-video
   -sip STREAM_IP, --stream-ip STREAM_IP
-                        IP address for video stream. (default: 192.168.100.31)
+                        IP address for video stream. (default: 192.0.2.31)
   -sport STREAM_PORT, --stream-port STREAM_PORT
                         Stream port (default: 8001)
   ````
 
   - Example call:
   ```shell
-  rcc-acquisition --auto-start --stream-video --stream-ip 192.168.100.31 --stream-port 9898
+  rcc-acquisition --auto-start --stream-video --stream-ip 192.0.2.31 --stream-port 9898
   ```
 
 
@@ -349,7 +349,7 @@ This software is released under the **[BSD 3-Clause License](https://github.com/
     general_settings_to_patch_into_controller = string_list(default=list("save_data", "acquisition_time", "acquisition_group"))  # Add variables here for patching into controllers
 
 [log]
-    address = string(max=15, default="192.168.100.10")
+    address = string(max=15, default="192.0.2.10")
     port = integer(default=55555)
     level = string(default="DEBUG")
     log_to_console = boolean(default=True)
@@ -357,7 +357,7 @@ This software is released under the **[BSD 3-Clause License](https://github.com/
     log_file = string(default="/tmp/rpi_camera_colony__logging")
 
 [control]
-    address = string(default="192.168.100.10")
+    address = string(default="192.0.2.10")
     port = integer(default=54545)
 
 [controllers]

@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "rpi_camera_colony"
 version = "1.0.1"
 authors = [
-    { name = "Lars B. Rollik", email = "L.B.Rollik@protonmail.com" }
+    { name = "Lars B. Rollik", email = "lars@rollik.me" }
 ]
 license = { file = "LICENSE" }
 description = "RPi Camera Colony: Central control for video acquisition with (many) Raspberry Pi cameras"

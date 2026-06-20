@@ -1,5 +1,5 @@
 #
-# Author: Lars B. Rollik <L.B.Rollik@protonmail.com>
+# Author: Lars B. Rollik <lars@rollik.me>
 # License: BSD 3-Clause
 import argparse
 import logging
@@ -76,7 +76,7 @@ def parse_args_for_piacquisitioncontrol():
     parser_acq_ctrl.add_argument(
         "--log-ip",
         "-lip",
-        default="192.168.100.10",
+        default="192.0.2.10",
         type=str,
         help="IP address for logging.",
     )
@@ -97,7 +97,7 @@ def parse_args_for_piacquisitioncontrol():
     parser_acq_ctrl.add_argument(
         "--control-stream-ip",
         "-cip",
-        default="192.168.100.10",
+        default="192.0.2.10",
         type=str,
         help="IP address for control stream.",
     )
