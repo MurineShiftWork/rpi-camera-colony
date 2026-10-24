@@ -18,15 +18,15 @@
 
 <!-- Banners -->
 [![DOI](https://zenodo.org/badge/370656006.svg)](https://zenodo.org/badge/latestdoi/370656006)
-[![Website](https://img.shields.io/website?up_message=online&url=https%3A%2F%2Fgithub.com/larsrollik/rpi_camera_colony)](https://github.com/larsrollik/rpi_camera_colony)
+[![Website](https://img.shields.io/website?up_message=online&url=https%3A%2F%2Fgithub.com/MurineShiftWork/rpi-camera-colony)](https://github.com/MurineShiftWork/rpi-camera-colony)
 [![PyPI](https://img.shields.io/pypi/v/rpi_camera_colony.svg)](https://pypi.org/project/rpi_camera_colony)
 [![Wheel](https://img.shields.io/pypi/wheel/rpi_camera_colony.svg)](https://pypi.org/project/rpi_camera_colony)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/python/black)
 
 <!--
-[![Development Status](https://img.shields.io/pypi/status/rpi_camera_colony.svg)](https://github.com/larsrollik/rpi_camera_colony)
-[![Tests](https://img.shields.io/github/workflow/status/larsrollik/rpi_camera_colony/tests)](
-    https://github.com/larsrollik/rpi_camera_colony/actions)
+[![Development Status](https://img.shields.io/pypi/status/rpi_camera_colony.svg)](https://github.com/MurineShiftWork/rpi-camera-colony)
+[![Tests](https://img.shields.io/github/actions/workflow/status/MurineShiftWork/rpi-camera-colony/pre-pr-checks.yaml)](
+    https://github.com/MurineShiftWork/rpi-camera-colony/actions)
 
 [![Python Version](https://img.shields.io/pypi/pyversions/rpi_camera_colony.svg)](https://pypi.org/project/rpi_camera_colony)
 [![Downloads](https://pepy.tech/badge/rpi_camera_colony)](https://pepy.tech/project/rpi_camera_colony)
@@ -213,7 +213,7 @@ Add an additional output via network video stream directly from the main `config
         ```
       b. From Github
         ```shell
-        pip install https://github.com/larsrollik/rpi_camera_colony[rpi]  # <- Note: `[rpi]` argument adds specific requirements for acquisition on RPi, but is not required for controller
+        pip install "rpi_camera_colony[rpi] @ git+https://github.com/MurineShiftWork/rpi-camera-colony"  # <- Note: `[rpi]` argument adds specific requirements for acquisition on RPi, but is not required for controller
         ```
 
 
@@ -306,7 +306,7 @@ from rpi_camera_colony.control.process_sandbox import ConductorAsProcess
 
 
 ## License
-This software is released under the **[BSD 3-Clause License](https://github.com/larsrollik/rpi_camera_colony/blob/master/LICENSE)**
+This software is released under the **[BSD 3-Clause License](https://github.com/MurineShiftWork/rpi-camera-colony/blob/main/LICENSE)**
 
 
 
@@ -420,7 +420,7 @@ This software is released under the **[BSD 3-Clause License](https://github.com/
 - `sudo rpi-update` fixes this. - Be careful, this updates the RPi firmware and might have unexpected side effects!
 
 ### There is more than one TTL-in detected for long (>50ms) up/down states of the TTL source
-- add a `bouncetime` parameter to the event detection in [camera.py#L196](https://github.com/larsrollik/rpi_camera_colony/blob/master/rpi_camera_colony/acquisition/camera.py#L196)
+- add a `bouncetime` parameter to the event detection in [camera.py#L196](https://github.com/MurineShiftWork/rpi-camera-colony/blob/main/rpi_camera_colony/acquisition/camera.py#L196)
 - remove surplus TTL-in post-hoc based on the known minimum spacing of TTL
 
 ### Ip forwarding and routing on central machine

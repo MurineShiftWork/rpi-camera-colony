@@ -38,8 +38,8 @@ dependencies = [
 ]
 
 [project.urls]
-Repository = "https://github.com/larsrollik/rpi_camera_colony"
-"Issue Tracker" = "https://github.com/larsrollik/rpi_camera_colony/issues"
+Repository = "https://github.com/MurineShiftWork/rpi-camera-colony"
+"Issue Tracker" = "https://github.com/MurineShiftWork/rpi-camera-colony/issues"
 
 
 [project.optional-dependencies]
